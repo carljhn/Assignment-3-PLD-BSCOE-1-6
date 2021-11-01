@@ -19,3 +19,13 @@ def getTotal():
 def getChange():
     change=money-total
     return change
+
+def display(max_apls, change):
+    print(f"You can buy {max_apls} apples and your change is {change} pesos.") 
+
+money=_money()
+apl_price=aplprc()
+max_apls=maxapls()
+total=getTotal()
+change=getChange()
+display(max_apls, change)
