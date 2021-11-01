@@ -23,3 +23,9 @@ def total_cost():
 def display(totalcst):
     print(f"The total amount is {totalcst}")
 
+apples=apls_quant()
+oranges=orngs_quant()
+apls_amount=apls_cost()
+orngs_amount=orngs_cost()
+total=total_cost()
+display(total)
